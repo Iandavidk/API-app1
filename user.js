@@ -15,9 +15,11 @@ async function renderPosts(id) {
 function postHTML(post) {
    return `
     <div class="post">
+        <hr>
         <div class="post_title">
             ${post.title}
         </div>
+        <hr>
         <p class="post_body">
             ${post.body}
         </p>

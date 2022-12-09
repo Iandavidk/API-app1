@@ -56,3 +56,6 @@ body {
     font-size: 1.2rem;
   }
   
+  hr {
+    border: 1px solid #000000;
+  }
