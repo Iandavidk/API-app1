@@ -1,2 +1,2 @@
-# API-app1
+# User-Posts
 Working with APIs in javascript
