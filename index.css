@@ -1,0 +1,38 @@
+.user-card_container {
+    /* Add a border and some padding to the card */
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5%;
+  
+    /* Add a subtle box shadow to the card */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  
+    /* Add some margin to create space between the cards */
+    margin: 10px;
+  
+    /* Add a responsive max-width to the card */
+    max-width: 300px;
+  
+    /* Add a background color or image to the card */
+    background-color: #fff;
+    /* OR */
+    background-image: url('https://picsum.photos/300/200');
+    background-size: cover;
+    background-position: center;
+  
+    /* Use a different font and font size for the card */
+    font-family: sans-serif;
+    font-size: 18px;
+  
+  }
+
+/* Add a hover effect to the card */
+.user-card_container:hover {
+    
+    transition: all 0.2s ease-in-out;
+
+    transform: scale(1.05);
+
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+  
