@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .post_search {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .post_search--container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  
+  .post_search--label {
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+  }
+  
+  .post_search input[type="number"] {
+    border: none;
+    background-color: #f7f7f7;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+  }
+  
+  .post_search button {
+    background-color: #f7f7f7;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .post-list {
+    padding: 0 1rem;
+  }
+  
+  .post {
+    margin-top: 1rem;
+  }
+  
+  .post_title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .post_body {
+    font-size: 1.2rem;
+  }
+  
